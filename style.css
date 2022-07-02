@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Kdam+Thmor+Pro&display=swap');
+* {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(147, 221, 255);
+}
+h1 {
+    font-size: 350%;
+    color: rgb(35, 35, 35);
+}
+#result {
+    font-family: 'Jua', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 390px;
+    height: 75px;
+    margin: 5px;
+    text-align: right;
+    font-size: 200%;
+    border-radius: 7.5px;
+    background-color: rgb(245, 245, 245);
+}
+#operator {
+    font-family: 'Jua', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    text-align: center;
+    font-size: 200%;
+    border-radius: 7.5px;
+    background-color: rgb(245, 245, 245);
+}
+button {
+    font-family: 'Jua', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 7.5px;
+    background-color: #B7F3FF;
+    font-size: 150%;
+    cursor: pointer;
+}
+button:hover {
+    font-family: 'Jua', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border: 2px solid rgb(0, 0, 177);
+    background-color: #9fcdd6;
+    transition: 0.5s;
+}
