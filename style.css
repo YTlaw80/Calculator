@@ -49,3 +49,10 @@ button:hover {
     background-color: #9fcdd6;
     transition: 0.5s;
 }
+@media ( max-width: 400px ) {
+    button {width: 100px;
+        height: 100px;
+        margin: 5px;
+        font-size: 100%;
+    }
+  }
