@@ -49,20 +49,20 @@ button:hover {
     background-color: #9fcdd6;
     transition: 0.5s;
 }
-@media ( max-width: 300px ) {
+@media ( max-width: 375px ) {
     button {width: 100px;
-        height: 100px;
+        height: 75px;
         margin: 5px;
-        font-size: 100%;
+        font-size: 80%;
     }
     #result {
-        font-size: 125%;
-        width: 200px;
-        height: 50px;
+        font-size: 100%;
+        width: 100px;
+        height: 45px;
     }
     #operator {
-        width: 50px;
-        height: 50px;
-        font-size: 125%;
+        width: 25px;
+        height: 25px;
+        font-size: 100%;
     }
   }
