@@ -19,6 +19,9 @@ h1 {
     border-radius: 7.5px;
     background-color: rgb(245, 245, 245);
 }
+::placeholder {
+     color: black;
+}
 #operator {
     font-family: 'Jua', sans-serif;
     font-family: 'Kdam Thmor Pro', sans-serif;
