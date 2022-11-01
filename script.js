@@ -3,7 +3,7 @@ let operator = "";
 let operandTwo = "";
 const $operator = document.querySelector("#operator");
 const $result = document.querySelector("#result");
-if($result.value == "") $result.value = "0";
+if($result.value == "") $result.value = "";
 
 function onClickNumber(event) {
     // console.log(event.target.innerText);
@@ -49,7 +49,7 @@ function onClickClear() {
     operator = "";
     operandTwo = "";
     $operator.value = "";
-    $result.value = "0";
+    $result.value = "";
 }
 
 // number button
